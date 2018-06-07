@@ -1,0 +1,428 @@
+@media only screen and (max-width:1024px) {
+  .header-logo {
+    .logo-menu {
+      .search {
+        input {
+          width: 50% !important;
+        }
+      } // .account{
+      //     a{
+      //         span{
+      //             display: none;
+      //         }
+      //     }
+      // }
+    }
+  }
+  .nav-menu {
+    .navbar {
+      // padding: 15px 0!important;
+      // position: relative;
+      // margin: 15px 0!important;
+      // .navbar-btn{
+      //     position: absolute;
+      //     top: 0;
+      //     left: 0;
+    }
+    .collapse-navbar {
+      // display: none;
+      // position: absolute;
+      // top: 0;
+      // right: 0;
+      // padding: 15px;
+      // width: 85%;
+      // background-color: #faf7f3;
+      // border-radius: 5px;
+      // margin: 10px 0;
+      .navbar-nav {
+        // display: inline-block!important;
+        text-transform: capitalize !important;
+        .nav-item {
+          font-size: 12px !important; // display: block!important;
+          // padding: 0px 15px !important;
+          a {
+            // display: inline-block;
+            // text-transform: capitalize;
+          }
+          i {
+            // padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer-menu {
+      ul {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .popular-design {
+    .overlay {
+      .popular-logo {
+        height: 200px;
+        .logo {
+          img {
+            right: 15px;
+          }
+        }
+        .nav-icon {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    .product {
+        .textile {
+            .photo {
+                .row {
+                    .col-md-6 {
+                        .img{
+                            margin-top: 15%!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+  .header-logo {
+    .logo-menu {
+      .search {
+        input {
+          width: 60% !important;
+        }
+      }
+      .account {
+        a {
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .nav-menu {
+    .navbar {
+      text-transform: uppercase !important;
+      padding: 15px 0 !important;
+      position: relative;
+      margin: 15px 0 !important;
+      .navbar-btn {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .collapse-navbar {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 15px;
+        width: 85%;
+        background-color: #faf7f3;
+        border-radius: 5px;
+        margin: 10px 0;
+        .navbar-nav {
+          display: block !important;
+          .nav-item {
+            font-size: 14px !important;
+            display: block !important;
+            padding: 0px 15px !important;
+            a {
+              display: inline-block;
+              text-transform: uppercase;
+            }
+            i {
+              padding-left: 15px;
+            }
+          }
+          .nav-item:first-child {
+            transform: translateX(0px) !important;
+            padding-left: 0;
+          }
+          .nav-item:last-child {
+            transform: translateX(0px) !important;
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .header-content {
+    .image {
+      .text {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .product {
+    .textile {
+      .photo {
+        .row .col-md-6 .img {
+          margin-top: 25% !important;
+        }
+        .row .col-md-6:first-child .img {
+          // margin-top: 10%!important;
+        }
+      }
+    }
+    .popular-fabrics {
+      .text-head {
+        p::after,
+        p::before {
+          width: 40%;
+        }
+      }
+      .fabrics {
+        .img {
+          .text {
+            .icon.active i.fa-shopping-bag {
+              width: 35px;
+              height: 35px;
+              line-height: 15px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .popular-design {
+    .overlay {
+      .text {
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 8px;
+        }
+      }
+      .popular-logo {
+        .logo::after {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .registr-section {
+    .register {
+      width: 75%;
+    }
+  }
+  footer {
+    .footer-menu {
+      ul {
+        li {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:425px) {
+  .container {
+    width: 90%;
+  }
+  .top-menu {
+    .list {
+      text-align: center;
+      li {
+        padding: 0 15px !important;
+      }
+    }
+    .social-list {
+      text-align: center !important;
+      li {
+        padding: 0 10px !important;
+      }
+    }
+  }
+  .header-logo {
+    .logo-menu {
+      .search {
+        position: relative !important;
+        input {
+          width: 100% !important;
+          padding: 10px 15px !important;
+          transform: translateX(0) !important;
+          border: 1px solid black !important;
+        }
+        i {
+          position: absolute !important;
+          transform: translateX(0) !important;
+          top: 10px !important;
+          right: 15px !important;
+          line-height: 23px;
+        }
+      }
+      .account {
+        text-align: center !important;
+      }
+    }
+  }
+  .nav-menu {
+    .navbar {
+      .navbar-btn {
+        width: 20% !important;
+      }
+      .collapse-navbar {
+        width: 80% !important;
+        .navbar-nav {
+          .nav-item {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+  .header-content {
+    .image {
+      .text {
+        h4 {
+          font-size: 15px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 12px;
+          color: #f6f6f6;
+          padding: 0 10%;
+        }
+        .btn {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .product {
+    padding-top: 2%;
+    .textile {
+      .head-text {
+        p {
+          font-size: 17px !important;
+        }
+      }
+      .photo {
+        .row .col-md-6 .img {
+          margin-top: 25% !important;
+        }
+        .row .col-md-6:first-child .img {
+          margin-top: 10% !important;
+        }
+      }
+    }
+    .textile:after {
+      position: relative;
+    }
+    .popular-fabrics {
+      .text-head {
+        p::after,
+        p::before {
+          width: 30%;
+        }
+      }
+    }
+  }
+  .popular-design {
+    .overlay {
+      .main-img::before,
+      .main-img::after {
+        display: none;
+      }
+    }
+  }
+  .registr-section {
+    .register {
+      .date {
+        ul {
+          li {
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .carousel {
+    padding-top: 40px;
+    .owl-carousel {
+      .owl-item {
+        .item {
+          // margin: 15px;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-bottom {
+      .green-img {
+        padding-bottom: 7%;
+      }
+      .list {
+        .soccial {
+          padding: 3% 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:375px) {
+  .header-logo {
+    .logo-menu {
+      // .search{
+      //     input{
+      //         width: 60%!important;
+      //     }
+      // }
+      .account {
+        a {
+          span {
+            // display: block;
+          }
+        }
+      }
+    }
+  }
+  .registr-section {
+    .register {
+      .head-text {
+        h5 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .date {
+        ul {
+          li {
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .registr-section::after {
+    bottom: -40px;
+  }
+}
